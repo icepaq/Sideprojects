@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 
-api_key = 'XZG7KAERH7D8GWOE'
+api_key = ''
 
 # Calling AlphaVantage API
 response = requests.get('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&'
